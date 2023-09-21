@@ -83,6 +83,22 @@ h1 {
   transform: rotate(270deg);
 }
 
+.error {
+  background-color: #ffcccc;
+  padding: 10px;
+  border: 1px solid #ff0000;
+  border-radius: 5px;
+  text-align: center;
+  color: black;
+}
+
+.error-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
 .app .bottom{
   display: flex;
   justify-content: space-evenly;
